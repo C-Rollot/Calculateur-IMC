@@ -1,0 +1,23 @@
+body {
+    font-family: Century Gothic;
+}
+
+body {
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calcul {
+    margin-top: 50px;
+}
+
+#poids, #submit-button {
+    margin-top: 25px;
+}
+
+input {
+    font-family: Century Gothic;
+    width: 300px;
+}
