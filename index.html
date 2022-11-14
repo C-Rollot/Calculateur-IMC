@@ -7,7 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="introduction">
+        <h1>IMC</h1>
+        <p id="presentation-imc">L’indice de masse corporelle (IMC) permet d’évaluer rapidement votre corpulence simplement avec votre poids et votre taille, quel que soit votre sexe. Calculez rapidement votre IMC et découvrez dans quelle catégorie vous vous situez.
+
+            L’indice de masse corporelle (IMC) est le seul indice validé par l’Organisation mondiale de la santé pour évaluer la corpulence d’un individu et donc les éventuels risques pour la santé. L’IMC permet de déterminer si l’on est situation de maigreur, de surpoids ou d’obésité par exemple.
+            
+            En anglais on parle de BMI pour Body Mass Index.</p>
+    </div>
+
+    <div id="calcul">
+        <h2>Comment calculer mon IMC?</h2>
+        <p id="intro-calcul">Il se calcule simplement en divisant le poids (en kg) par le carré de la taille (m). Un IMC normal se situe entre 18,5 et 25. Pour connaître votre IMC, pas besoin de sortir votre calculette, il vous suffit de compléter les champs ci-dessous.
+        </p>
+
+        <form id="formulaire-calcul">
+            <div>
+                <label for="taille">Taille:</label>
+                <input type="number" id="taille" name="taille" placeholder="Votre taille...">
+            </div>
+
+            <div>
+                <label for="poids">Poids:</label>
+                <input type="number" id="poids" name="poids" placeholder="Votre poids...">
+            </div>
+
+            <div id="submit-button">
+                <button type="submit" id="submit" name="submit">Calculer</button>
+            </div>
+        </form>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
